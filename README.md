@@ -1,2 +1,2 @@
 # React-Calculator
-![Project gifi]/.giphy.gif
+![Project gifi]/.gif/giphy.gif
