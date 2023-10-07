@@ -2,5 +2,5 @@
 
 ## Expected Outcome
 
-![Project gifi]/.gif/giphy.gif
+![Project gifi](/gif/giphy.gif)
 
