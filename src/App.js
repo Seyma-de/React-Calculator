@@ -12,6 +12,7 @@ function App() {
   const addToText = (val) => {
     setText((text) => [...text, val + " "]);
   };
+  //! muthis bir yontem mathjs kutuphanesi ile fonksiyon yazmadan matematiksel islemleri yapabiliyor
   const calculateResult = () => {
     const input = text.join("");
     setResult(math.evaluate(input));
