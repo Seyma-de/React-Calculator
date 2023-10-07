@@ -12,8 +12,8 @@ function App() {
   const addToText = (val) => {
     setText((text) => [...text, val + " "]);
   };
-  //! muthis bir yontem mathjs kutuphanesi ile fonksiyon yazmadan matematiksel islemleri yapabiliyor
-  //tek yapilmasi gereken npm mathjs yapip bir fonksiyon yazmak ve asagidaki algoritmayi kullanmak
+  //! A great method, you can perform mathematical operations without writing functions with the mathjs library.
+  //all you have to do is npm mathjs, write a function and use the algorithm below
   const calculateResult = () => {
     const input = text.join("");
     setResult(math.evaluate(input));
